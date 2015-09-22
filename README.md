@@ -144,3 +144,7 @@ buffer block with this buffer size and design.
 - What does "NoDelay" do?
 - What does "LingerState" do?
 - What does [SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true)] do?
+
+## References & Acknowledgements
+
+- http://www.codeproject.com/Articles/83102/C-SocketAsyncEventArgs-High-Performance-Socket-Cod
