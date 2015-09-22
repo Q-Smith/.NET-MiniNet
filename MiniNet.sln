@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2B4F201F-6446-4110-81A3-C8D0B5388792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniNet", "Core\MiniNet.Core\MiniNet.csproj", "{D90671D9-742C-4240-8B00-5AA9CBFFC90C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9080D82-2673-4F1F-ADFA-45B9B9053178}"
+	ProjectSection(SolutionItems) = preProject
+		Notes.txt = Notes.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleConsole", "Samples\SimpleConsole\SimpleConsole.csproj", "{957E80C8-6CD1-4AF0-92A2-ED6F2FF7113D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{647DEF55-4116-4288-BFEF-CEF6847E35EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D90671D9-742C-4240-8B00-5AA9CBFFC90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90671D9-742C-4240-8B00-5AA9CBFFC90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90671D9-742C-4240-8B00-5AA9CBFFC90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90671D9-742C-4240-8B00-5AA9CBFFC90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957E80C8-6CD1-4AF0-92A2-ED6F2FF7113D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957E80C8-6CD1-4AF0-92A2-ED6F2FF7113D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957E80C8-6CD1-4AF0-92A2-ED6F2FF7113D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957E80C8-6CD1-4AF0-92A2-ED6F2FF7113D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D90671D9-742C-4240-8B00-5AA9CBFFC90C} = {2B4F201F-6446-4110-81A3-C8D0B5388792}
+		{957E80C8-6CD1-4AF0-92A2-ED6F2FF7113D} = {647DEF55-4116-4288-BFEF-CEF6847E35EE}
+	EndGlobalSection
+EndGlobal
